@@ -1,13 +1,13 @@
-﻿生成启动时间为 2021/5/4 11:17:34。
+﻿生成启动时间为 2021/5/4 12:12:00。
      1>项目“c:\Users\朱语凡\documents\visual studio 2010\Projects\WordCount\WordCount\WordCount.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\WordCount.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt WordCount.c
          WordCount.c
-     1>c:\users\朱语凡\documents\visual studio 2010\projects\wordcount\wordcount\wordcount.c(12): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 参见“gets”的声明
-     1>c:\users\朱语凡\documents\visual studio 2010\projects\wordcount\wordcount\wordcount.c(14): warning C4047: “!=”:“int”与“void *”的间接级别不同
+     1>c:\users\朱语凡\documents\visual studio 2010\projects\wordcount\wordcount\wordcount.c(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\朱语凡\documents\visual studio 2010\projects\wordcount\wordcount\wordcount.c(24): warning C4047: “!=”:“int”与“void *”的间接级别不同
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
@@ -26,4 +26,4 @@
 
 生成成功。
 
-已用时间 00:00:00.86
+已用时间 00:00:00.83

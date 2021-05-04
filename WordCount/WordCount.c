@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 //返回输入字符串的字符数和单词数
-int main()
+int main(int argc, char *argv[])
 {
 	int charCount=0;//字符计数
 	int wordCount=0;//单词计数
@@ -10,7 +11,7 @@ int main()
 	char c;
 	//获取输入文本
 	char text[400]={""};
-	FILE* fp = fopen("context.txt", "r");
+	FILE* fp = fopen(argv[2], "r");
     if(!fp) {
         perror("File opening failed");
         return 0;
@@ -34,7 +35,18 @@ int main()
 		}
 	}
 	charCount=i;
-	printf("%d %d\n",charCount,wordCount+1);
-	printf("%s",text);
+	if(strcmp(argv[1],"-c")==0)
+	{
+		printf("字符数：%d",charCount);
+	}
+	else if(strcmp(argv[1],"-w")==0)
+	{
+		printf("单词数：%d",wordCount+1);
+	}else
+	{
+		printf("输入错误");
+		printf("+%s+",argv[1]);
+	}
+	
 	return 0;
 }
