@@ -45,7 +45,6 @@ int main(int argc, char *argv[])
 	}else
 	{
 		printf("ÊäÈë´íÎó");
-		printf("+%s+",argv[1]);
 	}
 	
 	return 0;

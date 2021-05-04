@@ -1,4 +1,4 @@
-﻿生成启动时间为 2021/5/4 12:12:00。
+﻿生成启动时间为 2021/5/4 19:57:17。
      1>项目“c:\Users\朱语凡\documents\visual studio 2010\Projects\WordCount\WordCount\WordCount.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\WordCount.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
@@ -26,4 +26,4 @@
 
 生成成功。
 
-已用时间 00:00:00.83
+已用时间 00:00:01.08
