@@ -18,6 +18,7 @@ int main()
 			wordCount++;
 		}
 	}
-	printf("%d %d",charCount,wordCount);
+	charCount=i;
+	printf("%d %d",charCount,wordCount+1);
 	return 0;
 }
